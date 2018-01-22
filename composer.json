@@ -1,0 +1,23 @@
+{
+    "name": "asimlqt/transact",
+    "type": "library",
+    "description": "A transaction library for PHP",
+    "keywords": ["php", "transaction"],
+    "homepage": "https://github.com/asimlqt/transact",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Asim Liaquat",
+            "email": "asimlqt22@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asimlqt\\Transact\\": "src"}
+    }
+}
+
